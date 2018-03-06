@@ -1,0 +1,92 @@
+
+body {background-color: #b3ccff;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-family:Helvetica
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #b3ccff;
+  color: black;
+}
+
+.data p { font-size: 17px; margin:30px;line-height: 25px; font-family:Helvetica;}
+
+.data iframe {margin-left: 30px}
+
+.data table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.data table, th, td {
+  border: 1px solid black;
+  align-content: center;
+}
+
+.data form{margin: auto}
+
+.form{
+  background:#b3ccff; width:470px; margin:30px;
+}
+.form fieldset{border:0px; padding:0px; margin:0px;}
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+
+.form input[type="text"] { width: 400px; }
+.form input[type="email"] { width: 400px; }
+
+.form label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
+.form input, textarea { background-color: white; border: 1px solid rgba(122, 192, 0, 0.15);
+  padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px;
+  margin-bottom: 15px; margin-top: -10px; }
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.form .select-style {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  width: 92px;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin-top:-5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;  }
+
+.form input.buttom{display: block;
+  margin: auto;
+  background: #4b8df9;
+  padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none;
+  font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+  border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999;
+  box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative;
+  cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+.form input.buttom:hover	{ background-color: #2a78f6; }
+
+#unwindClubTyped { text-decoration: none;}
+#chooseClub {color:gray;  margin-left: 5px;}
+#noAcademy {color:red; margin-left: 10px;}
+
+
